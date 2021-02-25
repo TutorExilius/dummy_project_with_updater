@@ -32,7 +32,6 @@ def main():
         window.show()
         result = app.exec_()
     except Exception as e:
-        window.stop_recording()
         logging.critical(e)
         print(e)
 
